@@ -285,11 +285,11 @@ arrayNumber.push(17); // Ajoute un élément au tableau.
 // Du plus grand au plus petit.
 
 
-document.body.innerHTML += arrayNumber
-.sort((a, b) => a - b)
-.filter((number) => number > 10)
-.map((number) => `<li>${number}</li>`)
-.join("");
+// document.body.innerHTML += arrayNumber
+// .sort((a, b) => a - b)
+// .filter((number) => number > 10)
+// .map((number) => `<li>${number}</li>`)
+// .join("");
 
 
 
@@ -298,20 +298,24 @@ document.body.innerHTML += arrayNumber
 //-----------------
 // Méthodes Objects
 //-----------------
+
 // document.body.innerHTML = data
 //   .filter((user) => user.pseudo.includes("a"))
 //   .sort((a, b) => b.age - a.age)
 //   .map(
 //     (user) =>
 //       `
-//     <div class="user-card">
-//       <h2>${user.pseudo}</h2>
-//       <p>Age : ${user.age} ans</p>
-//       <p>Status : ${user.admin ? "Modérateur" : "Membre"}</p>
-//     </div>
-//   `
-//   )
-//   .join("");
+//      <div class="user-card">
+//        <h2>${user.pseudo}</h2>
+//        <p>Age : ${user.age} ans</p>
+//        <p>Status : ${user.admin ? "Modérateur" : "Membre"}</p>
+//      </div>
+//    `
+//    )
+//    .join("");
+
+
+
 
 //----------
 // Les dates
